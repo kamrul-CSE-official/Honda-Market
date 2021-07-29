@@ -1,0 +1,123 @@
+
+/* Common style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.bg-header{
+    background-color: #264653;
+    width: 100%;
+    height: auto;
+}
+.ul{
+    margin-left: 60%;
+}
+#ul-li{
+    color: white;
+}
+.btn-edit{
+    background-color: #E76F51;
+    padding: 8px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.btn-edit:hover{
+    background-color: #fd9d84;
+    padding: 10px 30px;
+    color: white;
+}
+.font-page{
+    padding-bottom: 150px;
+}
+.font-page-text{
+    color: white;
+}
+.font-page-text p{
+    color: rgb(218, 213, 213);
+}
+.image-1{
+    width: 320px;
+    height: 250px;
+}
+
+
+.span{
+    color: red;
+}
+.bike-2{
+    width: 288px;
+    height: 243px;
+}
+            /* Grayscale */
+.gray_s{
+    filter: grayscale(100%);
+}
+
+
+.img-3{
+    width: 337px;
+    height: 256px;
+}
+.img-3a{
+    width: 337px;
+    height: 240px;
+}
+/* Clients says */
+.clients_says{
+    color: #E76F51;
+}
+.name{
+    color: #23A6F0;
+    text-align: center;
+}
+.star{
+    color: orange;
+}
+.star2{
+    color: rgb(245, 223, 181);
+}
+
+
+.image_FAQ{
+    width: 400px;
+    height: 423px;
+}
+
+
+.bg-touch{
+    background-color: rgb(248, 244, 247);
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.ball{
+    animation: rotation 3s infinite linear;
+  }
+
+
+footer{
+    background-color: #0B0D17;
+}
+.footre-font{
+    color: rgb(211, 211, 211);
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:700px){
+    .ul{
+        margin-left: auto;
+    }
+    .font-page-text{
+        width: auto;
+    }
+    
+}
